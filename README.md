@@ -26,7 +26,10 @@
     $ npm install
     $ npm run build
 
-buildディレクトリが作成されるので、それを公開してください
+buildディレクトリが作成されるので、それを公開してください。  
+ちなみに、開発するときは`npm install`後に以下のコマンドでそのまんま動かせます。
+    
+    $ npm start
 ## Author
 
 [@kam1nchu](https://twitter.com/kam1nchu)
