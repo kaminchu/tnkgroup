@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import Iframe from 'react-iframe'
+import '../css/Tinkogroups.css';
 
 
 class Tinkogroups extends Component {
   render() {
     const props = {
-      url: "https://tinko.org/tinkogroups.html"
+      src: "https://tinko.org/tinkogroups.html"
     }
     return (
       <div>
-        <Iframe {...props}/>
+        <iframe {...props}/>
         <div className="Footer">
           <br/>&copy;ちんこ系ドメイン勉強会
           <br/>last-update: 2016/12/12

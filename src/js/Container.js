@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Container.css';
+import '../css/Container.css';
 
 class Container extends Component {
   render() {
@@ -10,13 +10,12 @@ class Container extends Component {
 
     const empji = `
   ∧　∧
-             (*‘ω‘ *) 　ちんぽっぽ
- (　　　 )
-　  v v 　　　
+(*‘ω‘ *) 　ちんぽっぽ
+ (　　　)
+　 v v 　　　
 　　　　  　　ぼいんっ
 　  川
 ( (　　) )
-
         `;
     return (
       <div {...props}>

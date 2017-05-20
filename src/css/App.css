@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    font-family: "ＭＳ Ｐゴシック", "MS P Gothic";
+}
+
+
+a {
+    color: #464646;
+}
+
+.Tinkogroups {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.QR {
+}
+
+.Container {
+    padding: 0px 0px 16px 0px;
+    position:absolute;
+}

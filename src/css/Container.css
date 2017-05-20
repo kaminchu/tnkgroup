@@ -9,6 +9,7 @@
     -o-animation-iteration-count: infinite;
     animation: translation 3s;
     animation-iteration-count: infinite;
+    white-space: nowrap;
 }
 
 .Container a{
