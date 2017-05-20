@@ -26,6 +26,7 @@
     $ npm install
     $ npm run build
 
+buildディレクトリが作成されるので、それを公開してください
 ## Author
 
 [@kam1nchu](https://twitter.com/kam1nchu)
