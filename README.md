@@ -37,4 +37,4 @@ buildディレクトリが作成されるので、それを公開してくださ
 
 ## License
 
-[MIT](http://b4b4r07.mit-license.org)
+あとで決める
