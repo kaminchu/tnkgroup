@@ -25,11 +25,12 @@
     $ cd tnkgroup
     $ npm install
     $ npm run build
+    $ npm start
 
-buildディレクトリが作成されるので、それを公開してください。  
+`http://localhost:3000`へアクセスすると動作してることがわかります。  
 ちなみに、開発するときは`npm install`後に以下のコマンドでそのまんま動かせます。
     
-    $ npm start
+    $ npm run start:dev
 ## Author
 
 [@kam1nchu](https://twitter.com/kam1nchu)
