@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/kaminchu/tnkgroup/issues"
   },
-  "homepage": "https://github.com/kaminchu/tnkgroup#readme",
+  "homepage": "/",
   "main": "index.js",
   "repository": {
     "type": "git",
