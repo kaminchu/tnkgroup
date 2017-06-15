@@ -8,7 +8,7 @@ class Tinkogroups extends Component {
       src: "https://tinko.org/tinkogroups.html"
     }
     return (
-      <div>
+      <div style={{position: "absolute",bottom: 0}}>
         <iframe {...props}/>
         <div className="Footer">
           <br/>&copy;ちんこ系ドメイン勉強会

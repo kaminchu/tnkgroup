@@ -10,6 +10,8 @@
     animation: translation 3s;
     animation-iteration-count: infinite;
     white-space: nowrap;
+    padding: 0px 0px 16px 0px;
+    position: absolute;
 }
 
 .Container a{
