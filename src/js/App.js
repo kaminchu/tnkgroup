@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <QR className="QR"/>
         <Tinkogroups className="Tinkogroups"/>
+        <QR className="QR"/>        
         <Container className="Container"/>
       </div>
     );

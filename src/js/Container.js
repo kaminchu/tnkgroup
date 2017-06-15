@@ -3,9 +3,16 @@ import '../css/Container.css';
 
 class Container extends Component {
   render() {
+    const width = window.outerWidth;
+    const leftPx = (width/2) - 82;
+
     const props = {
       onClick: ()=> alert('クリック禁止です！'),
-      className:"Container"
+      className:"Container",
+      style:{    
+        left: leftPx,
+        bottom: 136
+      }
     };
 
     const empji = `

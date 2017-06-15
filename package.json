@@ -8,11 +8,15 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "opener": "^1.4.3",
     "react-scripts": "1.0.2"
   },
   "scripts": {
-    "start": "node ./app.js",
+    "start": "npm-run-all -p start:dev browser",
+    "start:production": "node ./app.js",
     "start:dev": "react-scripts start",
+    "browser": "opener http://localhost:3000/",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

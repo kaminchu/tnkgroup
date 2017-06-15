@@ -25,12 +25,12 @@
     $ cd tnkgroup
     $ npm install
     $ npm run build
-    $ npm start
+    $ npm run start:production
 
 `http://localhost:3000`へアクセスすると動作してることがわかります。  
 ちなみに、開発するときは`npm install`後に以下のコマンドでそのまんま動かせます。
     
-    $ npm run start:dev
+    $ npm start
 ## Author
 
 [@kam1nchu](https://twitter.com/kam1nchu)
