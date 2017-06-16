@@ -1,4 +1,4 @@
-.Container {
+.animation {
     -webkit-animation: translation 3s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation: translation 3s;
@@ -10,11 +10,9 @@
     animation: translation 3s;
     animation-iteration-count: infinite;
     white-space: nowrap;
-    padding: 0px 0px 16px 0px;
-    position: absolute;
 }
 
-.Container a{
+.text{
     text-align: center;
     margin: 4px;
 }
