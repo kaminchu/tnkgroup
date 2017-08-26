@@ -5,7 +5,6 @@ before_script:
 
 stages:
   - test
-  - build
   - deploy
 
 lint:
@@ -18,14 +17,10 @@ test:
   script:
     - npm run test
 
-build:
-  stage: build
-  script:
-    - npm run build
-
 pages:
   stage: deploy
   script:
+    - npm run build
     - cp -f -r build public
   artifacts:
     paths:
