@@ -5,7 +5,7 @@ export default class MemberList extends Component {
     const props = {
       name:"tinkogroups",
       title:"tinkogroups",
-      src: "https://tinko.org/tinkogroups.html",
+      src: "https://cuderia1917.github.io/tnkgroup/",
       style: {
         border: 0,
         borderWidth: 0
@@ -16,7 +16,7 @@ export default class MemberList extends Component {
         <iframe title="tinkogroups" {...props}/>
         <div>
           <br/>&copy;ちんこ系ドメイン勉強会
-          <br/>last-update: 2016/12/12
+          <br/>last-update: 2017/08/26
         </div>
       </div>
     );
