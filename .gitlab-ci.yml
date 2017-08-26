@@ -1,0 +1,29 @@
+image: node:latest
+
+before_script:
+  - npm install
+
+stages:
+  - test
+  - deploy
+
+lint:
+  stage: test
+  script:
+    - npm run lint
+
+test:
+  stage: test
+  script:
+    - npm run test
+
+pages:
+  stage: deploy
+  script:
+    - npm run build
+    - cp -f -r build/* public
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
