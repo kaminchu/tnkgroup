@@ -1,13 +1,16 @@
-import React, {Component} from "react";
-import "../css/app.css";
-import MemberList from "./components/member_list";
-import QR from "./components/qr";
-import Character from "./components/character";
+// @flow
 
-class App extends Component {
+import React, {Component} from "react";
+import "../../css/components/app.css";
+import MemberList from "./member_list";
+import QR from "./qr";
+import Character from "./character";
+
+type Props = any;
+class App extends Component<Props>{ 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <MemberList/>
         <QR/>        
         <Character/>
