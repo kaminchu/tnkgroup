@@ -3,13 +3,17 @@ env:
   commonjs: true
   es6: true
 extends: ['plugin:react/recommended','eslint:recommended']
+parser: babel-eslint
 parserOptions:
+  allowImportExportEverywhere: false
+  codeFrame: false
   ecmaFeatures:
     experimentalObjectRestSpread: true
     jsx: true
   sourceType: module
 plugins:
   - react
+  - flowtype
 rules:
   indent:
     - error
@@ -24,4 +28,8 @@ rules:
     - error
     - always
   react/jsx-uses-vars:
+    - error
+  flowtype/define-flow-type:
+    - error
+  flowtype/use-flow-type:
     - error

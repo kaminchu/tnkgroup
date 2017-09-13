@@ -10,22 +10,26 @@
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.54.1",
+    "flow-typed": "^2.1.5",
     "npm-run-all": "^4.0.2",
     "opener": "^1.4.3",
     "react-scripts": "1.0.2"
   },
   "scripts": {
-    "start": "npm-run-all -p start:dev browser",
-    "start:production": "node ./app.js",
+    "start": "npm-run-all -p start:dev && browser",
+    "start:production": "node ./server.js",
     "start:dev": "react-scripts start",
     "browser": "opener http://localhost:3000/",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src/js/**"
+    "lint": "eslint src/js/** && flow",
+    "flow": "flow"
   },
   "author": "kam1nchu",
   "license": "MIT",
