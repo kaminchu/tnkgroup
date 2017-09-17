@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+  background: #E6E6FA;
+}
+
+.top {
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4.0em;
+}
+
+.background {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
+  background: #fff;
+  margin: 0 0 12px;
+  border-radius: 2px;
+  padding: 12px 24px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
+}
+
+.bar {
+  margin: 0 0 31px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead-message {
+  font-size: 23px;
+  margin: 0 0 10px; 
+}
+
+li {
+  list-style: none;
+}
+
+#tinkogroups li {
+	position: relative;
+}
+#tinkogroups li::after,
+#tinkogroups li::before {
+	display: block;
+	content: '';
+	position: absolute;
+}
+#tinkogroups li::after {
+	top: .35em;
+	left: -1.2em;
+	width: 14px;
+	height: 14px;
+	background-color: gray;
+	border-radius: 100%;
+}
+#tinkogroups li::before {
+	z-index: 2;
+	top: .625em;
+	left: -.975em;
+	width: 4px;
+	height: 4px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	transform: rotate(-45deg);
+}
+
+#particle {
+  margin:0 auto;
+  background-color:#000;
+}
+
+@media screen and (max-width: 480px) {
+	.br-sp { display:none; }
+}
