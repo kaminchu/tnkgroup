@@ -1,4 +1,4 @@
-# tinko系ドメイン公式ホームページ作成プロジェクト
+# tinko系ドメイン勉強会公式ホームページ作成プロジェクト
 
 あとでかく
 
@@ -25,13 +25,10 @@ https://kaminchu.github.io/tnkgroup/
     $ git clone https://github.com/kaminchu/tnkgroup.git
     $ cd tnkgroup
     $ npm install
-    $ npm run build
-    $ npm run start:production
+    $ npm start
 
 `http://localhost:3000`へアクセスすると動作してることがわかります。  
-ちなみに、開発するときは`npm install`後に以下のコマンドでそのまんま動かせます。
-    
-    $ npm start
+
 ## Author
 
 [@kam1nchu](https://twitter.com/kam1nchu)
