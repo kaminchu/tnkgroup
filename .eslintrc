@@ -8,11 +8,7 @@
     "sourceType": "module",
     "ecmaVersion": 2017
   },
-  "ecmaFeatures": {
-    "modules": true,
-    "spread" : true,
-    "restParams" : true
-  },
+  "extends": "eslint:recommended",
   "rules": {
     "quotes": ["error", "double"],
 		"no-undef": "error",
@@ -42,19 +38,6 @@
 		"space-before-blocks": "error",
 		"object-curly-spacing": ["error", "always"],
 		"indent": "off",
-		"keyword-spacing": ["error", {
-			"after": false,
-			"overrides": {
-				"const": { "after": true },
-				"try": { "after": true },
-				"else": { "after": true },
-				"throw": { "after": true },
-				"case": { "after": true },
-				"return": { "after": true },
-				"finally": { "after": true },
-				"do": { "after": true }
-			}
-		}],
 		"no-console": "off",
 		"valid-jsdoc": "error"
   }

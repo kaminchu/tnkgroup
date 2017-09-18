@@ -5,7 +5,7 @@ const handler = new htmlparser.DefaultHandler((error, dom) => {
     console.error(error);
   } else {
     const ui = document.getElementById("tinkogroups");
-    const members = dom
+    dom
     .filter(e => e.name === "a")
     .forEach(e => {
       const href = e.attribs.href;
@@ -25,9 +25,3 @@ fetch("https://cuderia1917.github.io/tnkgroup/")
   const parser = new htmlparser.Parser(handler);
   parser.parseComplete(text);
 });
-
-
-
-
-
-

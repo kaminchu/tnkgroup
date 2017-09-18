@@ -36,7 +36,7 @@
   "scripts": {
     "start": "webpack-dev-server  --inline",
     "build": "webpack",
-    "lint": "lint"
+    "lint": "eslint src/**/*.js"
   },
   "author": "kam1nchu",
   "license": "MIT",

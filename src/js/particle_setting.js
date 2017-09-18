@@ -1,3 +1,4 @@
+/*global particlesJS*/
 import "particles.js";
 
 particlesJS("particle",{
