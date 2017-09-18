@@ -1,6 +1,6 @@
 .htaccess
 node_modules/
-build/
+public/
 npm-debug.log*
 pids
 *.pid
