@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+  background: #E6E6FA;
+}
+
+.top {
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4.0em;
+}
+
+.background {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
+  background: #fff;
+  margin: 0 0 12px;
+  border-radius: 2px;
+  padding: 12px 24px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
+}
+
+.bar {
+  margin: 0 0 31px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead-message {
+  font-size: 23px;
+  margin: 0 0 10px; 
+}
+
+.thumb {
+  display: inline-block;
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.thumb:hover {
+  animation: bounce 2s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-link {
+  display: block;
+  text-align: center;
+}
+
+#particle {
+  margin:0 auto;
+  background-color:#000;
+}
+
+#tinkogroups {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+	.br-sp { display:none; }
+}
+
+@keyframes bounce {
+  5%  { transform: scale(1.1, .8); }
+  10% { transform: scale(.8, 1.1) translateY(-5px); }
+  15% { transform: scale(1, 1); }
+}

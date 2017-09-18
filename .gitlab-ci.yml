@@ -12,16 +12,10 @@ lint:
   script:
     - npm run lint
 
-test:
-  stage: test
-  script:
-    - npm run test
-
 pages:
   stage: deploy
   script:
     - npm run build
-    - cp -f -r build/* public
   artifacts:
     paths:
     - public
