@@ -4,10 +4,10 @@ import "particles.js";
 particlesJS("particle",{
   "particles": {
     "number": {
-      "value": 80,
+      "value": 100,
       "density": {
         "enable": true,
-        "value_area": 200
+        "value_area": 600
       }
     },
     "shape": {
@@ -15,14 +15,6 @@ particlesJS("particle",{
       "stroke": {
         "width": 0,
         "color": "#ffcc00"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "images/hoge.png",
-        "width": 100,
-        "height": 100
       }
     },
     "color": {
@@ -56,7 +48,7 @@ particlesJS("particle",{
       "width": 1
     },
     "move": {
-      "speed": 10,
+      "speed": 2,
       "straight": false,
       "direction": "none",
       "out_mode": "out"
