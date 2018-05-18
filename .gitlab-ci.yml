@@ -11,6 +11,10 @@ lint:
   stage: test
   script:
     - npm run lint
+flow:
+  stage: test
+  script:
+    - npm run flow
 
 pages:
   stage: deploy
