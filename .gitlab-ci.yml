@@ -3,6 +3,12 @@ image: node:latest
 before_script:
   - npm install
 
+cache:
+  untracked: true
+  key: "$CI_BUILD_REF_NAME"
+  paths:
+    - node_modules/
+    
 stages:
   - test
   - deploy
@@ -11,6 +17,10 @@ lint:
   stage: test
   script:
     - npm run lint
+flow:
+  stage: test
+  script:
+    - npm run flow
 
 pages:
   stage: deploy
