@@ -1,8 +1,12 @@
-.htaccess
-node_modules/
-public/
+# npm
+node_modules
 npm-debug.log*
 pids
 *.pid
 *.seed
 *.pid.lock
+
+# parcel
+.cache
+public
+dist
