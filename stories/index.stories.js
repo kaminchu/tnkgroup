@@ -1,3 +1,4 @@
+// @flow
 /* global module */
 import React from "react";
 
@@ -18,3 +19,6 @@ storiesOf("Button", module)
       </span>
     </Button>
   ));
+
+// ↓my component
+import "./components";
